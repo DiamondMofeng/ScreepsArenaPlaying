@@ -2,13 +2,12 @@ import { findClosestByPath, getObjectsByPrototype, getRange } from 'game/utils';
 import { Creep, Source, StructureContainer, StructureSpawn } from 'game/prototypes';
 import { RESOURCE_ENERGY, WORK, CARRY, MOVE, ATTACK, TOUGH, RANGED_ATTACK, HEAL, ERR_NOT_IN_RANGE } from 'game/constants';
 
-import beheaviors from './utils/beheaviors';
-
-import start from './test/begin';
-import { body } from './utils/helper';
+import beheaviors from './public/utils/beheaviors';
+import start from './public/test/begin';
+import { body } from './public/utils/helper';
 
 //! 临时
-import { single } from './role/ytiiji';
+import { single } from './public/role/yitiji';
 
 
 const body_workers = [WORK, CARRY, MOVE];

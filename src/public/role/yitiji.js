@@ -3,7 +3,7 @@ import { Creep, StructureSpawn } from 'game/prototypes'
 
 import { avoidTouch } from '../utils/costMartix';
 
-
+//changed
 //最初始的，不考虑连携
 //默认此creep有heal和rangedAttack部件
 
