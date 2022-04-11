@@ -1,6 +1,9 @@
-import { findClosestByPath, getObjectsByPrototype, getRange } from 'game/utils';
-import { Creep, Source, StructureContainer, StructureSpawn } from 'game/prototypes';
-import { RESOURCE_ENERGY, WORK, CARRY, MOVE, ATTACK, TOUGH, RANGED_ATTACK, HEAL, ERR_NOT_IN_RANGE } from 'game/constants';
+// import { findClosestByPath, getObjectsByPrototype, getRange } from 'game/utils';
+// import { Creep, Source, StructureContainer, StructureSpawn } from 'game/prototypes';
+// import { RESOURCE_ENERGY, WORK, CARRY, MOVE, ATTACK, TOUGH, RANGED_ATTACK, HEAL, ERR_NOT_IN_RANGE } from 'game/constants';
+
+import { importAll } from './public/utils/importAll';
+importAll();
 
 import beheaviors from './public/utils/beheaviors';
 import start from './public/test/begin';
@@ -36,7 +39,7 @@ export function loop() {
     let healCreeps = myCreeps.filter(c => c.body.some(b => b.type == HEAL));
 
 
-
+    
     if (!start()) return
 
 

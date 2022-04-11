@@ -196,7 +196,6 @@ function isSpawning(spawn) {
 
 
 
-
 const beheaviors =
 {
   moveAndAttack, moveAndRA, moveAndTransfer, moveAndWithdraw, moveAndHeal,

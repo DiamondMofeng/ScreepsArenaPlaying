@@ -1,17 +1,11 @@
 import { getObjectsByPrototype } from "game/utils";
 import { CostMatrix } from "game/path-finder";
 
+import { getRectangleArea } from "./helper";
 
-function getRectangleArea(x1, y1, x2, y2) {
-  let area = [];
-  for (let i = x1; i <= x2; i++) {
-    for (let j = y1; j <= y2; j++) {
-      area.push({ x: i, y: j });
-    }
-  }
-  return area;
 
-}
+
+
 
 
 /**
